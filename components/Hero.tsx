@@ -1,3 +1,4 @@
+import Link from "next/link";
 const Hero = () => {
   return (
     <>
@@ -5,7 +6,7 @@ const Hero = () => {
         <div className="relative flex flex-col text-center">
           {/* landing bg-video */}
 
-          <video
+          {/* <video
             className="top-0 h-[50vh] w-full md:h-[100vh] opacity-100 object-cover"
             autoPlay
             loop
@@ -16,7 +17,12 @@ const Hero = () => {
               type="video/mp4"
             ></source>
             Your browser does not support the video tag.
-          </video>
+          </video> */}
+          <img
+            className="top-0 h-[50vh] blur-[4px] scale-110 w-full md:h-[100vh] opacity-100 object-cover"
+            src="/imgs/hero_bg2.jpg"
+            alt="hero"
+          />
 
           {/* landing bg-video text*/}
           <div className="absolute z-10 w-full top-0 lg:top-[10%] xl:top-1/6">
@@ -27,12 +33,12 @@ const Hero = () => {
               Discovery, Collect and Battle with web3 collectable cards
             </p>
 
-            <a
+            <Link
               href="/Game"
-              className="rounded-full item-center mt-6 px-12 py-3 mx-12 text-[1rem] md:text-[3rem]  bg-gradient-to-tr from-purple-800 to-purple-600 text-orange-400 hover:from-orange-600 hover:to-purple-300 hover:text-black"
+              className="rounded-full glass border-zinc-600 border-double border-4 text-zinc-600 font-black item-center mt-6 px-12 py-3 mx-12 text-[1rem] md:text-[3rem]  "
             >
               Game Start
-            </a>
+            </Link>
             <span className="block pt-4 text-white text-lg font-bold md:mt-6">
               Learn More →
             </span>
