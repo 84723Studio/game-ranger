@@ -119,7 +119,10 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <Link href="/Time" className="btn glass text-cyan-900 ">
+        <Link
+          href="/Time"
+          className="btn bg-orange-300 hue-rotate-40 text-cyan-900 "
+        >
           <span className="font-bold ">Get started</span>
         </Link>
       </div>
