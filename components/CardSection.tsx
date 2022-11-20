@@ -5,9 +5,9 @@ import StatInfo from "./StatInfo";
 const CardSection = () => {
   const imgList = [
     {
-      src: "/imgs/victoria.jpg",
-      alt: "victoria",
-      title: "Victoria",
+      src: "/imgs/ae.jpg",
+      alt: "Einstein",
+      title: "Einstein",
       desc: "The Queen of the United Kingdom of Great Britain and Ireland",
       stat: {
         attack: "100",
