@@ -76,7 +76,7 @@ const Navbar = () => {
             />
           </svg> */}
           <img
-            className="w-full h-12 ml-20  grayscale "
+            className="w-8 h-6 md:w-16 md:h-12 ml-20 grayscale "
             src="/imgs/Black on Transparent.png
             "
             alt=""
@@ -119,8 +119,8 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <Link href="/Time" className="btn glass">
-          <span className="font-bold">Get started</span>
+        <Link href="/Time" className="btn glass text-cyan-900 ">
+          <span className="font-bold ">Get started</span>
         </Link>
       </div>
     </div>
