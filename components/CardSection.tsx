@@ -20,9 +20,9 @@ const CardSection = () => {
   return (
     <div className="relative bg-gray-700">
       {/* BG image */}
-      <picture>
+      <picture className="">
         <img
-          className="absolute brightness-[.85] blur-xl px-12 py-8 w-[100vw] h-[100%] object-cover"
+          className="absolute  brightness-[.85] blur-lg px-4 py-8 w-[100%] h-[100%] object-fill"
           src="/imgs/bg1.jpg"
           alt="card section pattern"
         />

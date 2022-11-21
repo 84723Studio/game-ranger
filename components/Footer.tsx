@@ -1,4 +1,3 @@
-import Link from "next/link";
 const Footer = () => {
   return (
     <>
@@ -103,8 +102,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="block">
-          {" "}
-          <p className="bg-[#c8efff] text-[#121063] text-center text-sm h-[20px]">
+          <p className="bg-[#c8efff] text-[#121063] text-center text-sm w-full h-[20px]">
             GameRanger 2022 All Rights Reserved{" "}
           </p>
         </div>

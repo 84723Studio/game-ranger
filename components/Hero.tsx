@@ -19,7 +19,7 @@ const Hero = () => {
             Your browser does not support the video tag.
           </video> */}
           <img
-            className="top-0 h-[50vh] blur-[4px] scale-110 w-full md:h-[100vh] opacity-100 object-cover"
+            className="top-0 h-[50vh] blur-[4px]  overflow-hidden w-full md:h-[100vh] opacity-100 object-cover"
             src="/imgs/hero_bg2.jpg"
             alt="hero"
           />
